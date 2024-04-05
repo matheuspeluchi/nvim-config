@@ -24,3 +24,4 @@ local packer_bootstrap = ensure_packer()
 require('config.autocmd')
 
 require('config.packer')
+vim.opt.relativenumber = false
