@@ -17,7 +17,7 @@ require('telescope').setup{
         --},
         find_files = {
             find_command = {
-                'fd',
+                'fdfind',
                 '--type',
                 'f',
                 '--color=never',
