@@ -8,7 +8,7 @@ vim.g.encoding='UTF-8'
 vim.opt.number = true
 
 -- show relative numbers
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
 
 -- show matching parenthesis
 vim.o.showmatch = true

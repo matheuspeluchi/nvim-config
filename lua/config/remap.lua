@@ -1,5 +1,9 @@
 local map = vim.keymap.set
 
+
+-- toggleTerm
+map('n', '<C-\\>', ':ToggleTerm<CR>')
+
 -- Escape alternatives
 map('i', 'jj', '<esc>')
 map('i', 'kk', '<esc>')

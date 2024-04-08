@@ -30,6 +30,7 @@ require('telescope').setup{
 }
 
 require('telescope').load_extension('fzf')
+-- require('telescope')
 
 --map('n', '<leader>g', telescope.git_files)
 --map('n', '<leader><leader>', telescope.buffers)
