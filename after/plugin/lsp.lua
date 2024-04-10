@@ -2,7 +2,7 @@ local lspconfig = require('lspconfig')
 local wk = require("which-key")
 
 local servers = {
-    'tsserver', 'lua_ls', 'dockerls', 'lemminx', 'golangci_lint_ls', 'bashls'
+    'tsserver', 'lua_ls', 'dockerls', 'bashls'
 }
 
 require('mason').setup()
